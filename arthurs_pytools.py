@@ -35,8 +35,15 @@ class arthurs_pytools:
             rolls.append(side)
             times_rolled -= 1
         return rolls
-        
 
+    # checks to see if a given number is prime (returns True/False)
+    def is_prime(num):
+        i: int = 2
+        while i<=math.sqrt(num):
+            if num % i == 0:
+                return False
+            i=i+1
+        return True
 
 
 
