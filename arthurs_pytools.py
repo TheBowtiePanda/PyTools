@@ -25,6 +25,7 @@ class arthurs_pytools:
             rolls.append(side)
             times_rolled -= 1
         return rolls
+        
 
 
 
