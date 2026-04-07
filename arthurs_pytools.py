@@ -1,7 +1,7 @@
 import random
 import math
 
-class Arthurs_Pytools:
+class arthurs_pytools:
     # TheBowtiePanda
     #input that removes punctuation and spaces
     def bare_input(name):
