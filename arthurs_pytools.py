@@ -1,7 +1,9 @@
 import random
+import math
 
-class arthurs_pytools:
+class Arthurs_Pytools:
     # TheBowtiePanda
+    #input that removes punctuation and spaces
     def bare_input(name):
         # makes a user input
         user_input = input(f'{name}: ')
@@ -12,6 +14,7 @@ class arthurs_pytools:
 
 
     # TheBowtiePanda
+    #makes a list of random numbers with the length of (length)
     def random_list(length, min_value, max_value):
         ran_list = []
         #loops (length) times
@@ -25,6 +28,7 @@ class arthurs_pytools:
 
 
     # TheBowtiePanda
+    #chooses a random item in a list and adds it to a list a (times_rolled) number of times
     def dice_roll(sides, times_rolled=1):
         rolls = []
         #loops (times_rolled) times. default of 1
