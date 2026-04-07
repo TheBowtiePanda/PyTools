@@ -1,1 +1,1 @@
-Just some function to make coding easier
+Just some functions to make coding easier
