@@ -36,6 +36,7 @@ class arthurs_pytools:
             times_rolled -= 1
         return rolls
 
+    # CyborgWyrm
     # checks to see if a given number is prime (returns True/False)
     def is_prime(num):
         i: int = 2
